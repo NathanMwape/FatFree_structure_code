@@ -47,8 +47,10 @@ index.php
 1. **Cloner le Dépôt :**
 
    ```bash
-   git clone https://github.com/ton_utilisateur/kiyo-app.git
-   cd kiyo-app
+   git clone https://github.com/ton_utilisateur/FatFree_structure_code
+.git
+   cd FatFree_structure_code
+
    ```
 
 2. **Configurer l'Application :**
@@ -60,7 +62,7 @@ index.php
    ```ini
    [globals]
    DB_DNS=mysql:host=localhost;port=3306
-   DB_NAME=kiyo
+   DB_NAME=db_name
    DB_USER=root
    DB_PASSWORD=your_password
    ```
