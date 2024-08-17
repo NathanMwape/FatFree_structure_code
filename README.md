@@ -97,6 +97,13 @@ index.php
 2. **Accéder à l'Application :**
 
    Ouvrez votre navigateur et allez à l'URL `http://localhost:8000` pour voir l'application en action.
+   
+4. ** Lancer l'Application en dehors la racine :**
+   
+   Si tu veux simplement tester ton projet en dehors de la racine web, tu peux utiliser le serveur intégré de PHP.
+     ```bash
+    php -S localhost:8000 -t /chemin/vers/ton-projet
+   ```
 
 ## Contribution
 
