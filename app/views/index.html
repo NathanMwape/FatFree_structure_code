@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Définition de la base URL pour tous les liens relatifs dans la page -->
+    <!-- @BASE correspond à la racine de l'application, et @UI peut être utilisé pour -->
+    <!-- spécifier un sous-répertoire contenant des ressources comme le CSS, JS, etc. -->
+    <base href="{{@BASE. '/'. @UI}}" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CLIENT</title>
+  </head>
+  <body>
+    <h1>Liste des Clients</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Adresse</th>
+          <th>Téléphone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <repeat group="@clients" value="@client">
+          <tr>
+            <td>{{@client.nom_client}}</td>
+            <td>{{@client.adresse_client}}</td>
+            <td>{{@client.telephone_client}}</td>
+          </tr>
+        </repeat>
+      </tbody>
+    </table>
+  </body>
+</html>
