@@ -1,13 +1,8 @@
 # FatFree_structure_code
 structure du code fatfree complet
-
-Voici un exemple complet de README que tu peux utiliser pour ton projet sur GitHub :
-
 ---
 
-# KiYO Application
-
-Cette application est conçue pour la gestion des clients et des fournisseurs dans le magasin KiYO, qui se spécialise dans la vente d'équipements informatiques. L'application est construite à l'aide du **Fat-Free Framework (F3)**.
+ **Fat-Free Framework (F3)**.
 
 ## Structure du Projet
 
